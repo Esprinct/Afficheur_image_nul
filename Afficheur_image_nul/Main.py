@@ -15,6 +15,9 @@ def lien():
 def lien2():
     AffichageImage.affichageimage()
 
+def lien3():
+    webbrowser.open_new("https://github.com/Esprinct/Afficheur_image_nul")
+
 # Création de la fenetre
     
 fenetre = Tk()
@@ -45,7 +48,7 @@ boutton2= Button(boite, text="Oui, je veux ENCORE plus de culture", font =("Yada
 boutton2.pack(pady=25, fill=X)
 
 #Affivhage du Bouton3
-boutton3= Button(boite, text="test pour push git", font =("Yada Yada Yada", 15), bg =('white'),command=lien2)
+boutton3= Button(boite, text="test pour push git", font =("Yada Yada Yada", 15), bg =('white'),command=lien3)
 boutton3.pack(pady=25, fill=X)
 
 fenetre.mainloop()
