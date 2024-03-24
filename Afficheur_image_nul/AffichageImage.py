@@ -14,7 +14,7 @@ def affichageimage():
     #image de culture
     hauteur = 635
     Largeur = 411
-    nude = ImageTk.PhotoImage(Image.open("image.png"))
+    nude = ImageTk.PhotoImage(Image.open("Afficheur_image_nul\\image.png"))
     #canvas
     canvas = Canvas(fenetre2,width=hauteur, height= Largeur)
     canvas.create_image(hauteur/2,Largeur/2, image=nude)
