@@ -44,8 +44,4 @@ boutton.pack(pady=25, fill=X)
 boutton2= Button(boite, text="Oui, je veux ENCORE plus de culture", font =("Yada Yada Yada", 15), bg =('white'),command=lien2)
 boutton2.pack(pady=25, fill=X)
 
-#Affivhage du Bouton3
-boutton3= Button(boite, text="test pour push git", font =("Yada Yada Yada", 15), bg =('white'),command=lien2)
-boutton3.pack(pady=25, fill=X)
-
 fenetre.mainloop()
