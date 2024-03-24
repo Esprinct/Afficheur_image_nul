@@ -49,7 +49,7 @@ boutton2= Button(boite, text="Oui, je veux ENCORE plus de culture", font =("Yada
 boutton2.pack(pady=25, fill=X)
 
 #Affivhage du Bouton3
-boutton3= Button(boite, text="test pour push git", font =("Yada Yada Yada", 15), bg =('white'),command=lien3)
+boutton3= Button(boite, text="Lien repo git", font =("Yada Yada Yada", 15), bg =('white'),command=lien3)
 boutton3.pack(pady=25, fill=X)
 
 fenetre.mainloop()
